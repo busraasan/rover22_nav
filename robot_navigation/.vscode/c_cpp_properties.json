@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/basan/dummy_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/basan/dummy_ws/src/any_node/any_node/include/**",
+        "/home/basan/dummy_ws/src/any_node/any_node_example/include/**",
+        "/home/basan/dummy_ws/src/any_node/any_worker/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/robot_nav_tools/color_util/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/costmap_queue/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/dlux_global_planner/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/dlux_plugins/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/dwb_critics/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/dwb_local_planner/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/dwb_plugins/include/**",
+        "/home/basan/dummy_ws/src/elevation_mapping/elevation_mapping/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/global_planner_tests/include/**",
+        "/home/basan/dummy_ws/src/kindr/include/**",
+        "/home/basan/dummy_ws/src/kindr_ros/kindr_ros/include/**",
+        "/home/basan/dummy_ws/src/kindr_ros/kindr_rviz_plugins/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/locomotor/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/locomove_base/include/**",
+        "/home/basan/dummy_ws/src/message_logger/include/**",
+        "/home/basan/dummy_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/nav_2d_utils/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/nav_core2/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/nav_core_adapter/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/nav_grid/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/nav_grid_iterators/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/nav_grid_pub_sub/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/nav_grid_server/include/**",
+        "/home/basan/dummy_ws/src/any_node/param_io/include/**",
+        "/home/basan/dummy_ws/src/realsense_gazebo_plugin/include/**",
+        "/home/basan/dummy_ws/src/Simulations/rover_21_robotic_arm/robot_drive/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/robot_nav_tools/robot_nav_rviz_plugins/include/**",
+        "/home/basan/dummy_ws/src/robot_navigation/robot_nav_tools/robot_nav_viz_demos/include/**",
+        "/home/basan/dummy_ws/src/robot_setup_tf/include/**",
+        "/home/basan/dummy_ws/src/any_node/signal_handler/include/**",
+        "/home/basan/dummy_ws/src/traversability_estimation/traversability_estimation/include/**",
+        "/home/basan/dummy_ws/src/traversability_estimation/traversability_estimation_filters/include/**",
+        "/home/basan/dummy_ws/src/Simulations/DataspeedInc-velodyne_simulator-9ab05d74438b/velodyne_gazebo_plugins/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,7 @@
+<launch>
+  <arg name="prefix" default="" />
+  <node name="locomotor" pkg="locomotor" type="locomotor1" output="screen" launch-prefix="$(arg prefix)">
+    <rosparam file="$(find locomotor)/config/rovur.yaml" command="load"/>
+  </node>
+</launch>
+
