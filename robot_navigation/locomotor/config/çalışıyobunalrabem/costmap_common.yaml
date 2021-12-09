@@ -31,5 +31,5 @@ obstacles_laser:
 #    subscribe_to_updates: true
 
 inflation:
-    inflation_radius: 2.0 #1.13 #1.0 #0.1
-    cost_scaling_factor: 10.0
+    inflation_radius: 3.0 #1.13 #1.0 #0.1
+    cost_scaling_factor: 6.0

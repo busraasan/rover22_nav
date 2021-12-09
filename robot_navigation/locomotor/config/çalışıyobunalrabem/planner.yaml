@@ -5,10 +5,6 @@ global_plan_epsilon: -1.0
 twist_topic: cmd_vel
 twist_type: Twist3D
 
-NavfnROS:
-  allow_unknown: true # Specifies whether or not to allow navfn to create plans that traverse unknown space.
-  default_tolerance: 1.0 # A tolerance on the goal point for the planner.
-
 DluxGlobalPlanner:
   neutral_cost: 50
   scale: 3.0
@@ -76,12 +72,6 @@ DWBLocalPlanner:
   yaw_goal_tolerance: 0.5
   latch_xy_goal_tolerance: false
 
-  sim_time: 3.0
-  sim_granularity: 0.05
-  vx_samples: 15
-  vy_samples: 0
-  vtheta_samples: 30
-
   critics:
   - PreferForward
   - RotateToGoal
@@ -92,8 +82,7 @@ DWBLocalPlanner:
   - GoalDist
   - GoalAlign
 
-  - RotateBeforeStart
-
+  # PreferForward critic
   PreferForward:
     backward_cost: 1.0
     forward_cost: 0.0
@@ -109,7 +98,7 @@ DWBLocalPlanner:
 
   # Oscillation critic
   Oscillation:
-    x_only_threshold: -0.05
+    x_only_threshold: 0.05
     oscillation_reset_dist: 0.05
     oscillation_reset_angle: 0.05
     oscillation_reset_time: -1.0

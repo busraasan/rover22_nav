@@ -492,6 +492,8 @@ bool LocoMoveBase::loadRecoveryBehaviors(ros::NodeHandle node)
   XmlRpc::XmlRpcValue behavior_list;
   if (!node.getParam("recovery_behaviors", behavior_list))
   {
+    std::cout << node.getParam("recovery_behaviors", behavior_list) << std::endl;
+    std::cout <<  "bombabombabombabomba.com " << behavior_list << std::endl;
     // if no recovery_behaviors are specified, we'll just load the defaults
     return false;
   }
@@ -557,6 +559,7 @@ bool LocoMoveBase::loadRecoveryBehaviors(ros::NodeHandle node)
         return false;
       }
 
+      std::cout << "lokomokoooooo!" << std::endl;
       // initialize the recovery behavior with its name
       behavior->initialize(behavior_list[i]["name"], tf.get(), planner_costmap_ros_, controller_costmap_ros_);
       recovery_behaviors_.push_back(behavior);

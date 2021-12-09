@@ -11,5 +11,6 @@
   <depend>nav_2d_utils</depend>
   <depend>nav_core</depend>
   <depend>nav_core_adapter</depend>
+  <depend>custom_recovery</depend>
   <test_depend>roslint</test_depend>
 </package>

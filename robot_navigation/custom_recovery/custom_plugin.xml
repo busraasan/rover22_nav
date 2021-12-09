@@ -1,0 +1,7 @@
+<library path="lib/libcustom_recovery">
+  <class name="custom_recovery/CustomRecovery" type="custom_recovery::CustomRecovery" base_class_type="nav_core::RecoveryBehavior">
+    <description>
+      A recovery behavior that just prints stuff...
+    </description>
+  </class>
+</library>

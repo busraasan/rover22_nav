@@ -35,8 +35,10 @@
       </description>
     </class>
     <class type="dwb_critics::TwirlingCritic" base_class_type="dwb_local_planner::TrajectoryCritic">
-      <description>Penalize trajectories with rotational velocities
-      </description>
+      <description>Penalize trajectories with rotational velocities</description>
+    </class>
+    <class type="dwb_critics::RotateBeforeStartCritic" base_class_type="dwb_local_planner::TrajectoryCritic">
+      <description>Rotate to the global plan before start moving in xy</description>
     </class>
   </library>
 </class_libraries>
